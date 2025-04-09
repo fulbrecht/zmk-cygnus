@@ -70,6 +70,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        lpar_morph: lpar_morph {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LPAR_MORPH";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
