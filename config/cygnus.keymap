@@ -233,25 +233,25 @@
             bindings = <&kp LS(LG(S))>;
             key-positions = <2 3>;
         };
-        
+
         left-num-plus {
             bindings = <&kp PLUS>;
-            key-positions = <16 28>;
+            key-positions = <4 16>;
         };
 
         left-num-minus {
             bindings = <&kp MINUS>;
-            key-positions = <28 40>;
+            key-positions = <28 16>;
         };
 
         left-num-multiply {
             bindings = <&kp STAR>;
-            key-positions = <15 27>;
+            key-positions = <15 3>;
         };
 
         left-num-divide {
             bindings = <&kp SLASH>;
-            key-positions = <27 39>;
+            key-positions = <27 15>;
         };
     };
 
