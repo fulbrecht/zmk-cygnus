@@ -144,25 +144,25 @@
 
         left-num-dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <15 3>;
+            key-positions = <5 17>;
             layers = <5>;
         };
 
         left-num-equal {
             bindings = <&kp EQUAL>;
-            key-positions = <27 15>;
+            key-positions = <17 29>;
             layers = <5>;
         };
 
         right-num-dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <15 3>;
+            key-positions = <6 18>;
             layers = <5>;
         };
 
         right-num-equal {
             bindings = <&kp EQUAL>;
-            key-positions = <27 15>;
+            key-positions = <18 30>;
             layers = <5>;
         };
 
@@ -281,7 +281,6 @@
             bindings = <&kp LS(LG(S))>;
             key-positions = <2 3>;
         };
-
     };
 
     keymap {
