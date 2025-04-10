@@ -119,118 +119,118 @@
 
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <16 28>;
+            key-positions = <16 4>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
-            key-positions = <17 29>;
+            key-positions = <17 5>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
-            key-positions = <30 42>;
+            key-positions = <30 42 18>;
             layers = <0>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <18 30>;
+            key-positions = <18 6>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <41 29>;
+            key-positions = <29 17>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <40 28>;
+            key-positions = <28 16>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <39 27>;
+            key-positions = <27 15>;
         };
 
         pound {
             bindings = <&kp POUND>;
-            key-positions = <27 15>;
+            key-positions = <15 3>;
         };
 
         at {
             bindings = <&kp AT>;
-            key-positions = <14 26>;
+            key-positions = <14 2>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <26 38>;
+            key-positions = <26 14>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <31 19>;
+            key-positions = <19 7>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <31 43>;
+            key-positions = <31 43 19>;
         };
 
         star {
             bindings = <&kp STAR>;
-            key-positions = <32 20>;
+            key-positions = <20 8>;
         };
 
         forwardslash {
             bindings = <&kp SLASH>;
-            key-positions = <32 44>;
+            key-positions = <32 44 20>;
         };
 
         ampersand {
             bindings = <&kp AMPS>;
-            key-positions = <21 33>;
+            key-positions = <21 9>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <45 33>;
+            key-positions = <45 33 21>;
         };
 
         left_parenthesis {
             bindings = <&lpar_morph>;
-            key-positions = <32 31>;
+            key-positions = <19 20>;
         };
 
         right_parenthesis {
             bindings = <&rpar_morph>;
-            key-positions = <33 32>;
+            key-positions = <20 21>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <44 43>;
+            key-positions = <44 43 31 32>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <44 45>;
+            key-positions = <44 45 32 33>;
         };
 
         ctrl-alt-del {
             bindings = <&kp LC(LA(DEL))>;
-            key-positions = <14 15 16>;
+            key-positions = <2 3 4>;
         };
 
         ctrl-shift-s {
             bindings = <&kp LC(LS(S))>;
-            key-positions = <16 15>;
+            key-positions = <3 4>;
         };
 
         shift-win-s {
             bindings = <&kp LS(LG(S))>;
-            key-positions = <15 14>;
+            key-positions = <2 3>;
         };
     };
 
