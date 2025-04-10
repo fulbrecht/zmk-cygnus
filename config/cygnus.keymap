@@ -281,6 +281,16 @@
             bindings = <&kp LS(LG(S))>;
             key-positions = <2 3>;
         };
+
+        left-enter {
+            bindings = <&kp ENTER>;
+            key-positions = <29 38>;
+        };
+
+        right-enter {
+            bindings = <&kp ENTER>;
+            key-positions = <30 39>;
+        };
     };
 
     keymap {
