@@ -118,6 +118,30 @@
     combos {
         compatible = "zmk,combos";
 
+        left-num-plus {
+            bindings = <&kp PLUS>;
+            key-positions = <4 16>;
+            layers = <5>;
+        };
+
+        left-num-minus {
+            bindings = <&kp MINUS>;
+            key-positions = <28 16>;
+            layers = <5>;
+        };
+
+        left-num-multiply {
+            bindings = <&kp STAR>;
+            key-positions = <15 3>;
+            layers = <5>;
+        };
+
+        left-num-divide {
+            bindings = <&kp SLASH>;
+            key-positions = <27 15>;
+            layers = <5>;
+        };
+
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <16 4>;
@@ -234,25 +258,6 @@
             key-positions = <2 3>;
         };
 
-        left-num-plus {
-            bindings = <&kp PLUS>;
-            key-positions = <4 16>;
-        };
-
-        left-num-minus {
-            bindings = <&kp MINUS>;
-            key-positions = <28 16>;
-        };
-
-        left-num-multiply {
-            bindings = <&kp STAR>;
-            key-positions = <15 3>;
-        };
-
-        left-num-divide {
-            bindings = <&kp SLASH>;
-            key-positions = <27 15>;
-        };
     };
 
     keymap {
