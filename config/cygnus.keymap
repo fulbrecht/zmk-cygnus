@@ -244,7 +244,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <20 21>;
+            key-positions = <21 33>;
         };
 
         left_parenthesis {
