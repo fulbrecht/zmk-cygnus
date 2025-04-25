@@ -291,6 +291,18 @@
             bindings = <&kp ENTER>;
             key-positions = <30 39>;
         };
+
+        left-calc {
+            bindings = <&kp C_AL_CALC>;
+            key-positions = <16 15 14>;
+            layers = <5>;
+        };
+
+        right-calc {
+            bindings = <&kp C_AL_CALC>;
+            key-positions = <19 20 21>;
+            layers = <5>;
+        };
     };
 
     keymap {
