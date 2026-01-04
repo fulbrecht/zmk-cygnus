@@ -425,10 +425,5 @@
             if-layers = <2 6>;
             then-layer = <8>;
         };
-
-        adjust {
-            if-layers = <2 4>;
-            then-layer = <8>;
-        };
     };
 };
